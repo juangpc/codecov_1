@@ -1,0 +1,12 @@
+
+codecov:
+# When Codecov generates a comparison for a pull-request, but the pull-request’s 
+# base in git does not have coverage information, Codecov will try to find an 
+# appropriate substitute (a “pseudo-base”). This is referred to as pseudo-comparison.
+# The default is True. When pseudo-comparison is disallowed, and the base commit of a
+# PR has no coverage data, Codecov will render an error in the UI.
+# Pseudo-comparison can be turned off via the Codecov YAML option.
+  allow_pseudo_compare: True
+  
+
+
