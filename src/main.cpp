@@ -10,9 +10,9 @@ int main(int argc, char* argv[]) {
   foo<int>(1);
   
   function1(1);
-  function1(2);
-  function1(3);
-  function1(0);
+  // function1(2);
+  // function1(3);
+  // function1(0);
   
   return 0;
 }
