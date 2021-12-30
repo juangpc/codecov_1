@@ -2,8 +2,8 @@
 
 mkdir -p build
 
-clang++ -c -fprofile-instr-generate -fcoverage-mapping src/foo.cpp -o build/foo.o
-clang++ -c -fprofile-instr-generate -fcoverage-mapping src/func1.cpp -o build/func1.o
+clang++ -c -fprofile-instr-generate -fcoverage-mapping src/foo/foo.cpp -o build/foo.o
+clang++ -c -fprofile-instr-generate -fcoverage-mapping src/funcs/func1.cpp -o build/func1.o
 
 clang++ -fprofile-instr-generate -fcoverage-mapping src/main.cpp -o build/app
 
