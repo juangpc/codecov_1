@@ -1,18 +1,19 @@
 #include <iostream>
-
-#define BAR(x) ((x) || (x)) 
-
-template <typename T>
-void foo(T x) {
-  for (unsigned i = 0; i < 10; ++i) {
-    BAR(i);
-  }
-}
-
+#include "foo.cpp"
+#include "func1.cpp"
 
 int main(int argc, char* argv[]) {
+  std::cout << "\nApplication running!!\n\n";
+  
   foo<int>(0);
   foo<float>(0);
+  foo<int>(1);
+  
+  function1(1);
+  function1(2);
+  function1(3);
+  function1(0);
+  
   return 0;
 }
 
