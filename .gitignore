@@ -1,6 +1,7 @@
 
-build*/
+build/
+coverage/
 
-codecov.exe
+codecov
 
 secrets.txt
