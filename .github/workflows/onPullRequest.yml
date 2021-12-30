@@ -13,6 +13,8 @@ jobs:
           git clone https://github.com/juangpc/codecov_1.git
           chmod +x biuld.sh
           chmod +x clean.sh
-          # ./build.sh
+          ./build.sh
+          ./codecov -t c0d84956-6f86-4f21-a947-6bcd026ec152 --source src --file coverage/coverage.txt  -F foo 
+          ./codecov -t c0d84956-6f86-4f21-a947-6bcd026ec152 --source src --file coverage/coverage.txt  -F funcs 
 
           

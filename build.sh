@@ -20,5 +20,3 @@ LLVM_PROFILE_FILE="coverage/app.profraw" out/app
 
 /Library/Developer/CommandLineTools/usr/bin/llvm-cov report out/app -instr-profile=coverage/app.profdata
 
-./codecov -t c0d84956-6f86-4f21-a947-6bcd026ec152 --source src --file coverage/coverage.txt 
-
