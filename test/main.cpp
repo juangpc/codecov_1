@@ -1,6 +1,6 @@
 #include <iostream>
-#include "foo/foo.cpp"
-#include "funcs/func1.cpp"
+#include "../src/foo/foo.cpp"
+#include "../src/funcs/func1.cpp"
 
 int main(int argc, char* argv[]) {
   std::cout << "\nApplication running!!\n\n";
