@@ -1,4 +1,5 @@
 name: Manually triggered 
+
 on:
   workflow_dispatch:
     inputs:
