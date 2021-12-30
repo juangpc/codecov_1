@@ -6,8 +6,13 @@ on:
       - main
 
 jobs:
-  say_hello:
+  build with codecov:
     runs-on: macos-latest
     steps:
       - run: |
-          echo "Hello now"
+          git clone https://github.com/juangpc/codecov_1.git
+          chmod +x biuld.sh
+          chmod +x clean.sh
+          # ./build.sh
+
+          
