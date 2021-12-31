@@ -1,0 +1,34 @@
+
+comment:
+  layout: "reach, diff, flags, files"
+  require_changes: false
+
+codecov: 
+  require_ci_to_pass: true
+
+flags:
+  foo:
+    paths:
+      - src/foo/
+  funcs:
+    paths:
+      - src/funcs/
+
+coverage:
+  status:
+    project:
+      default:
+        target: 50%    # the required coverage value
+        threshold: 5%  # the leniency in hitting the target
+        flags: 
+          - foo
+          - funcs
+        foo:
+          flags:
+            -foo
+        funcs:
+          flags:
+            - funcs
+
+
+
