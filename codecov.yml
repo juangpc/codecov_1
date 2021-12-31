@@ -1,6 +1,6 @@
 
 comment:
-  layout: "reach, diff, flags"
+  layout: "reach, diff, flags, files"
   require_changes: false
 
 codecov: 
